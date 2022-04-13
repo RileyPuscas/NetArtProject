@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<title>Riley NetArt</title>
+</head>
+
+<body style="background-color: skyblue;">
+
+<h1 style="background-color: pink">I <blockquote>wish</blockquote> it <sup>was</sup> summer</h1>
+
+
+<h2 id="homeText" onmouseover="changeText()" onmouseout="changeBack()">I <del>don't</del> want to go <em>home</em></h2>
+
+
+<h6 style="color: rgb(0,120,20)">I hate <q>coding</q></h6>
+
+<a href="http://www.google.com">Search here</a>
+
+
+<p id="paraTag" onmouseover="changeColorBack()">This is a paragraph tag</p>
+
+
+<a href="page2.html">Click Here For Dogs</a>
+
+
+
+<p style="color:violet">This is a paragraph tag</p>
+
+<button id="firstButton" onclick="changeTextPurple()">Purple</button>
+
+<script>
+
+function changeText(){
+
+	document.getElementById("homeText").innerHTML = "I Really Want To Leave";
+}
+
+function changeTextPurple(){
+
+	document.getElementById("paraTag").style.color = "Purple";
+
+}
+
+function changeBack(){
+
+	document.getElementById("homeText").innerHTML = "I <del>don't</del> want to go <em>home</em>";
+}
+
+function changeColorBack(){
+
+	document.getElementById("paraTag").style.color = "Black";
+}
+
+
+</script>
+
+</body>
+</html>

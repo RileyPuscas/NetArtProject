@@ -1,0 +1,55 @@
+<html>
+
+<title>Coffee</title>
+<head>
+<style>
+	h1 {
+		text-align: center; border-style: solid;
+	}
+	h2 {
+		text-align:  center;
+	}
+	h4{
+		text-align:  center;
+	}
+
+</style>
+</head>
+
+<head>
+	<h1 style="color: white;" >Top-Rated Coffee Shops</h1>
+	<img src="coffeegif.gif" style="display: block; margin-left: auto; margin-right: auto;"/>
+	
+	<h2 style="color: white;" >Forget Sleeping, Get Your Caffeine</h2> 
+	<h2 id="fix" style="color: white;" onmouseover="changeText()" onclick="changeBack()">Fix!</h2>
+
+</head>
+
+<body id="backcolor" style="background-color: saddlebrown";>
+
+
+<h3 id="starBucks" style="visibility: hidden;">1. Starbucks 2. Dunkin' Donuts 3. Tim Horton's</h3>
+
+<h4 style="color: white;"> Learn more about coffee below</h4>
+
+<center>
+<iframe width="923" height="519" style=" block; margin-left: auto; margin-right: auto;" src="https://www.youtube.com/embed/hmflDZ30ipc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+<center>
+	<button id="home" onclick="location.href='index.html'">NORM</button>
+
+<script>
+
+function changeText(){
+	document.getElementById("fix").innerHTML = "1. Starbucks 2. Dunkin' Donuts 3. Tim Horton's";
+}
+
+function changeBack(){
+	document.getElementById("fix").innerHTML = "Fix!";
+}
+
+</script>
+</body>
+
+</html>

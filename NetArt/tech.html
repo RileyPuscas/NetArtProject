@@ -1,0 +1,63 @@
+<html>
+
+<title>Tech-Tied</title>
+
+
+<header>
+<center>
+<h1 style="border-style: double;">Tech<blockquote>Tied</blockquote></h1>
+</center>
+
+
+</header>
+
+<body style="background-color: powderblue;" >
+
+<center>
+	<p>Tech addiction is a real thing. You need to be careful with how much time you spend online. A good tip for this is to enable screen-time tracking so that you are aware. It is very easy to become addicted to our screens with social media being apart of our life. This can drain you whether its social battery, confidence, time, etc. Click on the words below</p>
+</center>
+
+<h2 id="before" onclick="showImage()" onmouseout="hideImage()">Before</h2>
+<h2 id="after" onclick="revealImage()">After</h2>
+
+<center>
+<img id="bat" style="visibility: hidden;" src="batteryfull.png"/ onmouseover="hideImage()" width="30%">
+<img id="batt" style="visibility:  hidden;" src="batterylow.png"/ width="30%">
+</center>
+
+<center>
+<p>Fun Fact:</p>
+
+<h2 style="color: white">About 61% of global online users are addicted to the internet</h2>
+
+<p>What are you viewing this on?</p>
+
+</center>
+
+<center>
+<button id="home" onclick="location.href='index.html'">NORM</button>
+</center>
+
+<script>
+
+
+function showText(){
+	document.getElementById("fact").style.visibility = "visible";
+}
+
+function showImage(){
+	document.getElementById("bat").style.visibility = "visible";
+}
+
+function revealImage(){
+	document.getElementById("batt").style.visibility = "visible";
+}
+function hideImage(){
+	document.getElementById("bat").style.visbility = "hidden";
+}
+
+</script>
+</body>
+
+
+</html>
